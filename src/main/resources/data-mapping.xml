@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping>
+
+	<table-mapping>
+		<table-source>
+			<table>user</table>
+		</table-source>
+		<table-target>
+			<table>user_target</table>
+		</table-target>
+		<column-mapping>
+			<column-source>id</column-source>
+			<column-target>id</column-target>
+		</column-mapping>
+
+		<column-mapping>
+			<column-source>name</column-source>
+			<column-target>name</column-target>
+		</column-mapping>
+	</table-mapping>
+
+
+
+
+	<table-mapping>
+		<table-source>
+			<table>address</table>
+		</table-source>
+		<table-target>
+			<table>address_target</table>
+		</table-target>
+		<column-mapping>
+			<column-source>id</column-source>
+			<column-target>id</column-target>
+		</column-mapping>
+
+		<column-mapping>
+			<column-source>location</column-source>
+			<column-target>location</column-target>
+		</column-mapping>
+	</table-mapping>
+
+
+</mapping>
